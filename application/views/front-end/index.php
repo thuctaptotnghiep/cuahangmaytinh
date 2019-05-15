@@ -95,13 +95,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					   <article style="position: absolute; width: 100%; opacity: 0;">					
 						<div class="banner-matter">
 						<div class="col-md-5 banner-bag">
-							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/bag.jpg" alt=" " />
+							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/laptop/lap1.jpg" alt=" " />
 							</div>
 							<div class="col-md-7 banner-off">							
-								<h2>FLAT 50% 0FF</h2>
-								<label>FOR ALL PURCHASE <b>VALUE</b></label>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
-								<span class="on-get">GET NOW</span>
+								<h2>Giảm ngay 50% giá tiền</h2>
+								<label>cho mọi sản phẩm giá tiền hơn<b> 20 triệu</b></label>
+								<p>Laptop bền bỉ</p>					
+								<span class="on-get">Mua Ngay</span>
 							</div>
 							
 							<div class="clearfix"> </div>
@@ -111,13 +111,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 	<article style="position: absolute; width: 100%; opacity: 0;">					
 						<div class="banner-matter">
 						<div class="col-md-5 banner-bag">
-							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/bag1.jpg" alt=" " />
+							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/laptop/lap2.jpg" alt=" " />
 							</div>
 							<div class="col-md-7 banner-off">							
-								<h2>FLAT 50% 0FF</h2>
-								<label>FOR ALL PURCHASE <b>VALUE</b></label>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
-								<span class="on-get">GET NOW</span>
+								<h2>Giảm ngay 50% giá tiền</h2>
+								<label>cho mọi sản phẩm giá tiền hơn<b> 20 triệu</b></label>
+								<p>Laptop bền bỉ</p>				
+								<span class="on-get">MUA NGAY</span>
 							</div>
 							
 							<div class="clearfix"> </div>
@@ -127,13 +127,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 	<article style="position: absolute; width: 100%; opacity: 0;">					
 						<div class="banner-matter">
 						<div class="col-md-5 banner-bag">
-							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/bag.jpg" alt=" " />
+							<img class="img-responsive " src="<?php base_url() ?>/assets/web/images/laptop/lap3.jpg" alt=" " />
 							</div>
 							<div class="col-md-7 banner-off">							
-								<h2>FLAT 50% 0FF</h2>
-								<label>FOR ALL PURCHASE <b>VALUE</b></label>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
-								<span class="on-get">GET NOW</span>
+								<h2>Giảm ngay 50% giá tiền</h2>
+								<label>cho mọi sản phẩm giá tiền hơn<b> 20 triệu</b></label>
+								<p>Laptop bền bỉ</p>					
+								<span class="on-get">MUA NGAY</span>
 							</div>
 							
 							<div class="clearfix"> </div>
@@ -158,33 +158,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	   		      <!---->
 	   		     <div class="shoes-grid-left">
 			<a href="single.html">				 
-	   		     	<div class="col-md-6 con-sed-grid">
-					
-	   		     		<div class=" elit-grid"> 
-						
-		   		     		<h4>consectetur  elit</h4>
-		   		     		<label>FOR ALL PURCHASE VALUE</label>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
-							<span class="on-get">GET NOW</span>						
-						</div>						
-						<img class="img-responsive shoe-left" src="<?php base_url() ?>/assets/web/images/sh.jpg" alt=" " />
-							
-						<div class="clearfix"> </div>
-						
-	   		     	</div>
-					</a>
-					<a href="single.html">	
-	   		     	<div class="col-md-6 con-sed-grid sed-left-top">
-	   		     		<div class=" elit-grid"> 
-		   		     		<h4>consectetur  elit</h4>
-		   		     		<label>FOR ALL PURCHASE VALUE</label>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
-							<span class="on-get">GET NOW</span>
-						</div>		
-						<img class="img-responsive shoe-left" src="<?php base_url() ?>/assets/web/images/wa.jpg" alt=" " />
-						
-						<div class="clearfix"> </div>
-	   		     	</div>
 					</a>
 	   		     </div>
 	   		     <div class="products">
@@ -196,15 +169,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					foreach($pc as $com => $con)
 					{
 				 ?>
-	   		     	<div class="col-md-4 chain-grid">
+	   		     	<div class="col-md-4 chain-grid grid-top-chain">
 	   		     		<a href="single.html"><img class="img-responsive chain" src="<?php base_url() ?>/assets/web/images/ch.jpg" alt=" " /></a>
 	   		     		<span class="star"> </span>
 	   		     		<div class="grid-chain-bottom">
 	   		     			<h6><a href="single.html"><?php echo $con->hangsx.$con->sohieu ?></a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="dolor-grid"> 
-		   		     				<span class="actual">300$</span>
-		   		     				<span class="reducedfrom">400$</span>
+		   		     				<span class="actual"><?php echo $con->gia ?> VNĐ</span>
+		   		     				<span class="reducedfrom"></span>
 		   		     				  <span class="rating">
 									        <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
 									        <label for="rating-input-1-5" class="rating-star1"> </label>
@@ -218,7 +191,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									        <label for="rating-input-1-1" class="rating-star"> </label>
 							    	   </span>
 	   		     				</div>
-	   		     				<a class="now-get get-cart" href="#">ADD TO CART</a> 
+	   		     				<a class="now-get get-cart" href="#">Thêm vào giỏ</a> 
 	   		     				<div class="clearfix"> </div>
 							</div>
 	   		     		</div>
@@ -231,69 +204,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	   		     	  <a class="view-all" href="product.html">Xem thêm<span> </span></a> 		     
 	   		     </div>
 	   		     <div class="product-left">
-	   		     	<div class="col-md-4 chain-grid">
-	   		     		<a href="single.html"><img class="img-responsive chain" src="<?php base_url() ?>/assets/web/images/bott.jpg" alt=" " /></a>
-	   		     		<span class="star"> </span>
-	   		     		<div class="grid-chain-bottom">
-	   		     			<h6><a href="single.html">Lorem ipsum dolor</a></h6>
-	   		     			<div class="star-price">
-	   		     				<div class="dolor-grid"> 
-		   		     				<span class="actual">300$</span>
-		   		     				<span class="reducedfrom">400$</span>
-		   		     				  <span class="rating">
-									        <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
-									        <label for="rating-input-1-5" class="rating-star1"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
-									        <label for="rating-input-1-4" class="rating-star1"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
-									        <label for="rating-input-1-3" class="rating-star"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
-									        <label for="rating-input-1-2" class="rating-star"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
-									        <label for="rating-input-1-1" class="rating-star"> </label>
-							    	   </span>
-	   		     				</div>
-	   		     				<a class="now-get get-cart" href="#">ADD TO CART</a> 
-	   		     				<div class="clearfix"> </div>
-							</div>
-	   		     		</div>
-	   		     	</div>
-	   		     	<div class="col-md-4 chain-grid">
-	   		     		<a href="single.html"><img class="img-responsive chain" src="<?php base_url() ?>/assets/web/images/bottle.jpg" alt=" " /></a>
-	   		     		<span class="star"> </span>
-	   		     		<div class="grid-chain-bottom">
-	   		     			<h6><a href="single.html">Lorem ipsum dolor</a></h6>
-	   		     			<div class="star-price">
-	   		     				<div class="dolor-grid"> 
-		   		     				<span class="actual">300$</span>
-		   		     				<span class="reducedfrom">400$</span>
-		   		     				  <span class="rating">
-									        <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
-									        <label for="rating-input-1-5" class="rating-star1"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
-									        <label for="rating-input-1-4" class="rating-star1"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
-									        <label for="rating-input-1-3" class="rating-star"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
-									        <label for="rating-input-1-2" class="rating-star"> </label>
-									        <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
-									        <label for="rating-input-1-1" class="rating-star"> </label>
-							    	   </span>
-	   		     				</div>
-	   		     				<a class="now-get get-cart" href="#">ADD TO CART</a> 
-	   		     				<div class="clearfix"> </div>
-							</div>
-	   		     		</div>
-	   		     	</div>
+	   		     	<?php
+					foreach($phukien as $pc => $pc1)
+					{
+				 ?>
 	   		     	<div class="col-md-4 chain-grid grid-top-chain">
-	   		     		<a href="single.html"><img class="img-responsive chain" src="<?php base_url() ?>/assets/web/images/baa.jpg" alt=" " /></a>
+	   		     		<a href="single.html"><img class="img-responsive chain" src="<?php base_url() ?>/assets/web/images/ch.jpg" alt=" " /></a>
 	   		     		<span class="star"> </span>
 	   		     		<div class="grid-chain-bottom">
-	   		     			<h6><a href="single.html">Lorem ipsum dolor</a></h6>
+	   		     			<h6><a href="single.html"><?php echo $pc1->tenPK?></a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="dolor-grid"> 
-		   		     				<span class="actual">300$</span>
-		   		     				<span class="reducedfrom">400$</span>
+		   		     				<span class="actual"><?php echo $con->gia ?> VNĐ</span>
+		   		     				<span class="reducedfrom"></span>
 		   		     				  <span class="rating">
 									        <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
 									        <label for="rating-input-1-5" class="rating-star1"> </label>
@@ -307,11 +230,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									        <label for="rating-input-1-1" class="rating-star"> </label>
 							    	   </span>
 	   		     				</div>
-	   		     				<a class="now-get get-cart" href="#">ADD TO CART</a> 
+	   		     				<a class="now-get get-cart" href="#">Thêm vào giỏ</a> 
 	   		     				<div class="clearfix"> </div>
 							</div>
 	   		     		</div>
 	   		     	</div>
+	   		     	<?php }?>
 	   		     	 <div class="clearfix"> </div>
 	   		     </div>
 	   		     <div class="clearfix"> </div>
